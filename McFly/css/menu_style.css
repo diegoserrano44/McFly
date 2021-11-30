@@ -69,7 +69,7 @@
 	cursor: pointer;
 }
 
-@media screean and (max-width:700px) {
+@media screen and (max-width:700px) {
 	#loginpanel {
 		width: 100%;
 	}
