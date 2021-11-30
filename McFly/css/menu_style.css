@@ -73,4 +73,7 @@
 	#loginpanel {
 		width: 100%;
 	}
+	#login {
+		right: 10%;
+	}
 }
