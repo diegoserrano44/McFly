@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCFLY</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/menu_style.css"/>
+	
+	<script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://peterolson.github.io/BigInteger.js/BigInteger.min.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/logo-black.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#about">White Paper</a>
+        <a href="#menu">Road Map</a>
+        <a href="#products">NFT</a>
+        <a href="#review">About Us</a>
+        <a href="#contact">Contact</a>
+        <a href="#blogs">Token Distribution</a>
+        <a href="#faqs">FAQS</a>
+    </nav>
+<button onclick="connectMetamask()">Connect To Metamask</button>
+<div class="icons">
+				
+			<div id="login">	
+				<div id="loginpanel" style="display:none;">
+					<form action="#" method="post">
+						<label for="username">Usuario:</label>
+						<input type="text" id="username" name="username"/>
+						<label for="password">Contraseña:</label>
+						<input type="password" id="password" name="password"/>
+						<button type="submit" id="submit">Entrar</button>					
+					</form>
+				</div>
+		</div>
+	<div class="far fa-user" id="showlogin">
+	</div>
+
+	<div class="fas fa-search" id="search-btn"></div>
+     
+	<div class="fas fa-bars" id="menu-btn"></div>
+	
+</div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+	
+</header>
+
+
+<!-- header section ends -->
+<div>
+	
+</div>
+<!-- home section starts  -->
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>MCFLY </h3>
+        <p>Grow your weed, create your own strains, get nfts... The best weed crytpo game in the World</p>
+        <a href="#" class="btn">get in the ICO list</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>white</span> paper </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/" alt="">
+        </div>
+
+        <div class="content">
+            <h3>About the Game</h3>
+            <p>Gow your own weed, create your own strains and get unique NFTS, multiplayer marketplace, NFT marketplace. LEGALIZE-IT </p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+
+    <h1 class="heading"> Road <span>Map</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>ICO</h3>
+           <p></p>
+        </div>
+
+        <div class="box">
+            <h3>NFT WEED MARKETPLACE</h3>
+            <p></p>
+        </div>
+
+        <div class="box">
+            <h3>BETA</h3>
+            <p></p>
+        </div>
+
+        <div class="box">
+            <h3>MULTIPLAYER</h3>
+            <p></p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- menu section ends -->
+
+<section class="products" id="products">
+
+    <h1 class="heading">  <span>NFTS</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/nft.png" alt="">
+            </div>
+            <div class="content">
+                <h3>WeedMan NFT</h3>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/nft.png" alt="">
+            </div>
+            <div class="content">
+                <h3>WeedMan NFT</h3>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/nft.png" alt="">
+            </div>
+            <div class="content">
+                <h3>WeedMan NFT</h3>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> token <span>distribution</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/team2.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">team</a>
+                <p>25% of the tokens will be for the developing team </p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/locked.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">locked</a>
+                <p>40% of the tokens will be locked to be earned playing MCFLY to ensure liquidity for players rewards</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/sale.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">avaliable for sale</a>
+                <p>35% of the tokens will be progresively avalible for sale, starting with a 1% for the ico participants and the remaining will be put out for sale only a 2% at a time untill all tokens have been sold, ensuring a solid growth for our crypto. </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> about <span>us</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="images/pic-1.png" class="content" alt="DRSERRANO">
+            <p>DR Serrano</p>
+        </div>
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="images/pic-2.png" class="content" alt="DRPHILL">
+            <p>DR PHIL</p>
+        </div>
+		
+		 <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="images/pic-2.png" class="content" alt="DRPHILL">
+            <p>DR PHIL</p>
+        </div>
+        
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="images/pic-3.png" class="content" alt="DRPABLO">
+            <p>DRPABLO</p>
+        </div>
+
+         <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="images/pic-2.png" class="content" alt="SrCarles">
+            <p>SrCarles</p>
+         </div>
+		 
+		 <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="images/pic-2.png" class="content" alt="SrCarles">
+            <p>SrCarles</p>
+         </div>
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <div class="row">
+
+       
+
+        <form action="">
+            <h3>Any issue ?</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="reason"></span>
+                <input type="describe briefly the issue" placeholder="describe briefly the issue">
+            </div>
+            <input type="submit" value="contact now" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<section id="faqs">
+    <h1 class="heading">  <span>FAQS</span> </h1>
+<div class="faqs-box">
+	<details>
+		<summary>Question 1</summary>
+		<p>ksoakdojkdfefioejfiejifjsfijeiojfsijeisjfiejfi
+		</p>
+	</details>
+</div>
+
+<div class="faqs-box">
+	<details>
+		<summary>Question 2</summary>
+		<p>ksoakdojkdfefioejfiejifjsfijeiojfsijeisjfiejfi
+		</p>
+	</details>
+</div>
+	
+<div class="faqs-box">
+	<details>
+		<summary>Question 3</summary>
+		<p>ksoakdojkdfefioejfiejifjsfijeiojfsijeisjfiejfi
+		</p>
+	</details>
+</div>
+
+<div class="faqs-box">
+	<details>
+		<summary>Question 4</summary>
+		<p>ksoakdojkdfefioejfiejifjsfijeiojfsijeisjfiejfi
+		</p>
+	</details>
+</div>
+</section>
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="fab fa-telegram"></a>
+        <a href="#" class="fab fa-twitter"></a>
+		<div class="up">
+		<a href="#" class="fas fa-arrow-up"></a>
+		</div>
+    </div>
+
+    <div class="credit">created by <span>MCFLY</span> | all rights reserved</div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+</body>
+</html>
